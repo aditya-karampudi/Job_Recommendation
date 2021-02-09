@@ -1,4 +1,4 @@
-**Recommendation Engine**
+﻿**Recommendation Engine**
 
 **What is the Objective?**
 
@@ -215,21 +215,20 @@ The map of United States revealing details about the number of jobs in
 each area. This is derived using Folium package on latitude and
 longitude information present in job dataset.
 
-![](media/image1.png){width="5.096527777777778in" height="3.20625in"}
+![](media/image1.png)
 
 **Position Names**
 
 The following wordcloud shows the different words used in position
 attribute
 
-![](media/image2.png){width="5.136805555555555in"
-height="2.8041666666666667in"}
-
+![](media/image2.png)
+ 
 **Job Cities:** Most Jobs are present in Chicago, Houston, SFO,
 Indianapolis and so on.
 
-![](media/image3.png){width="6.263194444444444in"
-height="2.8916666666666666in"}
+![](media/image3.png)
+ 
 
 **Collaborative Filtering Models**
 
@@ -347,9 +346,9 @@ similarity to the query and printing out has given the following result.
 
 This shows the sample user query and the result
 
-![](media/image4.png){width="6.256944444444445in"
-height="0.7486111111111111in"}![](media/image5.png){width="6.263194444444444in"
-height="3.4in"}
+![](media/image4.png)
+
+![](media/image5.png)
 
 This is content-based recommendation...
 
@@ -373,13 +372,12 @@ are viewed, applied by the other 25 applicants are recommended.
 
 The curve with elbow method.
 
-![](media/image6.png){width="6.263194444444444in"
-height="3.297222222222222in"}
+![](media/image6.png)
+
 
 Visualization of clusters with centroids
 
-![](media/image7.png){width="5.697222222222222in"
-height="3.9256944444444444in"}
+![](media/image7.png) 
 
 With this the recommendation system can be improved by adding all the
 recommendations done by three algorithms and making it a hybrid
