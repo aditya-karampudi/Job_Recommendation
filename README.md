@@ -1,6 +1,3 @@
-# Job_recommendation
-connect job seekers to relevant positions based on the profile
-
 **Recommendation Engine**
 
 **What is the Objective?**
