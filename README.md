@@ -33,22 +33,22 @@ other consumer products, or even job positions or dating profiles.
 -   **Microsoft has implemented recommendation systems in a variety of
     products, from providing recommendations to customer when he/she
     watch's an Xbox movie, to recommending a workout based on his/her
-    previous activity with Microsoft band. **
+    previous activity with Microsoft band**
 
 -   **Netflix for movie recommendations**
 
 -   **Quora for quest recommendations**
 
--   **eBay, Amazon for product, **
+-   **eBay, Amazon for product**
 
--   **LinkedIn for job recommendations **
+-   **LinkedIn for job recommendations**
 
 -   **Google News Personalization System**
 
 -   **Facebook for "you may know", "you might like" etc.**
 
 -   **Recommendation systems is widely being used in almost all online
-    services.**
+    services**
 
 **Data**
 
@@ -63,63 +63,62 @@ which is ok but in order to get more personalized recommendations it
 won't work as the engine might be suggesting jobs which doesn't match
 applicants domain and hence that would not make a good recommendations.
 
-**The dataset consists of twelve csv files. **
+**The dataset consists of twelve csv files.**
 
 -   **Combined\_Jobs\_final** : The dataset consists of different
     columns which are
 
--   Job.ID : Unique number given to every job and there are 84,067 job
-    openings
+-   **Job.ID** : Unique number given to every job and there are 84,067
+    job openings
 
--   Provider : there are two providers so the provider of that job. This
-    is not needed for analysis
+-   **Provider** : there are two providers so the provider of that job.
+    This is not needed for analysis
 
--   Status: Is the job currently active? And all the jobs are active and
-    we can drop this attribute
+-   **Status**: Is the job currently active? And all the jobs are active
+    and we can drop this attribute
 
--   Slug: it is combination of title, position, company and city this
-    can be dropped
+-   **Slug:** it is combination of title, position, company and city
+    this can be dropped
 
--   Title: It is the combination of position and company and this is of
-    no use
+-   **Title:** It is the combination of position and company and this is
+    of no use
 
--   Position: It is the name of the position this info can be used for
-    content recommendation has few NA
+-   **Position**: It is the name of the position this info can be used
+    for content recommendation has few NA
 
--   Company: It is the name of the company in which job is posted and is
-    needed for analysis
+-   **Company:** It is the name of the company in which job is posted
+    and is needed for analysis
 
--   City: This is the city where the job posting is done and is needed
+-   **City:** This is the city where the job posting is done and is
+    needed
 
--   State.Name: the state in which the city is located and is not needed
-    as we already taken city
+-   **State.Name**: the state in which the city is located and is not
+    needed as we already taken city
 
--   State.Code: this is of no use
+-   **State.Code**: this is of no use
 
--   Address: no need of address as city is taken into consideration
+-   **Address:** no need of address as city is taken into consideration
 
--   Latitude: This is already taken into account by present company
+-   **Latitude:** This is already taken into account by present company
     recommendation
 
--   Longitude: This is already taken into account by present company
+-   **Longitude:** This is already taken into account by present company
     recommendation
 
--   Industry: although this is needed but there are 70% NA hence
+-   **Industry:** although this is needed but there are 70% NA hence
     ignoring the industry
 
--   Job.Description: This can be ignored but we can draw content from it
-    so it is taken into consideration
+-   **Job.Description:** This can be ignored but we can draw content
+    from it so it is taken into consideration
 
--   Requirements: this is of no use
+-   **Requirements**: this is of no use
 
--   Salary: This is mostly NA hence dropping
+-   **Salary:** This is mostly NA hence dropping
 
--   Employement.Type: This is about part time and full time employment
-    and is considered
+-   **Employement.Type:** This is about part time and full time
+    employment and is considered
 
--   Education.Required: This is also considered
-
--   
+-   **Education.Required**: This is also considered
 
 Now even though few attributes are important it has been ignored cause
 they might not be present in user data hence while searching this wont
@@ -157,17 +156,17 @@ it is irrelevant to consider.
 content recommendation. Looking at the data there are few columns in
 this file they are:
 
-Graduate.Year: which year did the applicant finished final semester. The
-only record that matter is the latest study of the applicant.
+**Graduate.Year**: which year did the applicant finished final semester.
+The only record that matter is the latest study of the applicant.
 
-School.Name: which school did the applicant pursue. This attribute will
-not help in recommending as job providers will not specifically require
-applicants from particular school.
+**School.Name**: which school did the applicant pursue. This attribute
+will not help in recommending as job providers will not specifically
+require applicants from particular school.
 
-City: which city did he/she study. This city is covered in applicants
-info hence this is not included.
+**City**: which city did he/she study. This city is covered in
+applicants info hence this is not included.
 
-Degree: what type of education did the applicant had. This is the
+**Degree:** what type of education did the applicant had. This is the
 education applicant had and this is need as it might match the Education
 requirement of the job.ID
 
@@ -220,9 +219,11 @@ longitude information present in job dataset.
 
 **Position Names**
 
+The following wordcloud shows the different words used in position
+attribute
+
 ![](media/image2.png){width="5.136805555555555in"
-height="2.8041666666666667in"}The following wordcloud shows the
-different words used in position attribute
+height="2.8041666666666667in"}
 
 **Job Cities:** Most Jobs are present in Chicago, Houston, SFO,
 Indianapolis and so on.
