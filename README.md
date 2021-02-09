@@ -390,7 +390,7 @@ used to recommend nearest jobs to a job.
 
 **Recommender Systems has few major hurdles**
 
-**A. Sparsity Problem **
+**A. Sparsity Problem**
 
 Sparsity problem is one of the major problems encountered by recommender
 system and data sparsity has great influence on the quality of
@@ -402,7 +402,7 @@ rate most of the items and the available ratings are usually sparse.
 Collaborative filtering suffers from this problem because it is
 dependent over the rating matrix in most cases.
 
-**B. Cold Start problem **
+**B. Cold Start problem**
 
 Cold start problem refers to the situation when a new user or item just
 enters the system. Three kinds of cold start problems are: new user
@@ -415,7 +415,7 @@ as new user. However, content based methods can provide recommendation
 in case of new item as they do not depends on any previous rating
 information of other users to recommend the item.
 
-**C. Scalability **
+**C. Scalability**
 
 Scalability is the property of system indicates its ability to handle
 growing amount of information in a graceful manner. With enormous growth
